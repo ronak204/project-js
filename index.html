@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/product.js">
+    <title>Product Page</title>
+</head>
+<body style="background-color: aquamarine;">
+    
+    <h1 style="margin-left: 60px; color: blueviolet; margin-top: 110px;">Product Page</h1>
+
+    <div class="product-form">
+        <h2 style="margin-left: 60px; color: brown;">Add New Product</h2>
+        <form id="productForm">
+            <label for="title" style="margin-left: 130px;">** Title **</label><br>
+            <input type="text" id="title" name="title" placeholder="Product : " required><br><br>
+
+            <label for="price" style="margin-left: 120px;">** Price **</label><br>
+            <input type="number" id="price" name="price" placeholder="Product Price :" required><br><br>
+
+            <label for="category" style="margin-left: 110px;">** Category **</label><br>
+            <input type="text" id="category" name="category" placeholder="Product Category :" required><br><br>
+
+            <button type="submit" style="margin-left: 115px; color: rgb(168, 16, 166);">sign in Product</button>
+        </form>
+    </div>
+
+    <div class="product-list">
+        <h2 style="margin-left: 95px; color: rgb(255, 14, 118);">Product List</h2>
+        <div id="productContainer">
+        </div>
+    </div>
+</body>
+</html>
